@@ -114,7 +114,8 @@ export class CinemaService {
        if ( oneMovie.id === movieId) {
          movieInfo = oneMovie;
        }
-     })
+     });
+     return movieInfo;
   }
 
 }
