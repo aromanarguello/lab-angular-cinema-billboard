@@ -1,0 +1,12 @@
+<h1>Movies</h1>
+
+
+<ul>
+  <li class="movies" *ngFor="let oneMovie of movieBillboards">
+    <img src="{{ oneMovie.poster }}" />
+    <p>
+       {{ oneMovie.title }}
+    </p>
+    <a [routerLink]="['/movie', oneMovie.id]"> See details</a>
+  </li>
+</ul>

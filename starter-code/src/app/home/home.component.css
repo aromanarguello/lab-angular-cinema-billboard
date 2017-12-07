@@ -1,0 +1,17 @@
+.movies {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  margin: 0 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
